@@ -1,0 +1,69 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:Md5.cs" caret="3663" fromTop="43" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ReadXML.cs" caret="1269" fromTop="21" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmMessage.designer.cs" caret="0" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmMessage.cs" caret="0" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:Program.cs" caret="453" fromTop="15" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmMasterCompose.cs" caret="0" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:MainForm.cs" caret="398" fromTop="14" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:RichTextEdit.Designer.cs" caret="45312" fromTop="21" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.cs" caret="4166" fromTop="37" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:RichTextEdit.cs" caret="827" fromTop="31" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="4762" fromTop="40" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="7040" fromTop="66" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.Designer.cs" caret="7120" fromTop="34" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.cs" caret="3214" fromTop="32" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.cs" caret="2989" fromTop="39" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.cs" caret="2897" fromTop="37" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.cs" caret="4462" fromTop="43" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.cs" caret="5134" fromTop="43" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:RichTextEdit.cs" caret="0" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.cs" caret="4166" fromTop="37" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:RichTextEdit.cs" caret="569" fromTop="24" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:RichTextEdit.cs" caret="606" fromTop="24" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:RichTextEdit.cs" caret="558" fromTop="21" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="5244" fromTop="41" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="5245" fromTop="42" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="5473" fromTop="42" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="6881" fromTop="34" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="5858" fromTop="21" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="3540" fromTop="18" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="3519" fromTop="39" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="3856" fromTop="43" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="3155" fromTop="28" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="5471" fromTop="30" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="3894" fromTop="21" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:RichTextEdit.cs" caret="827" fromTop="31" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:RichTextEdit.cs" caret="873" fromTop="31" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="4263" fromTop="29" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="4499" fromTop="36" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="4762" fromTop="39" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="4801" fromTop="40" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="7040" fromTop="66" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLXuLyAddNewApplication.cs" caret="7140" fromTop="66" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.Designer.cs" caret="7647" fromTop="34" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

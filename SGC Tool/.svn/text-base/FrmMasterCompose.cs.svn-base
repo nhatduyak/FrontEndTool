@@ -1,0 +1,12 @@
+﻿using System.Windows.Forms;
+
+namespace SGC_Tool
+{
+    public partial class FrmMasterCompose : Form
+    {
+        public FrmMasterCompose()
+        {
+            InitializeComponent();
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<ROOT>
+<TABLE filename="INVMST" extension="">
+<ROWS>
+<ROW SKU="003003123">
+<COLS>
+<COL Disc_Flag="Y" />
+</COLS>
+</ROW>
+<ROW SKU="003060000">
+<COLS>
+<COL Disc_Flag="Y" />
+</COLS>
+</ROW>
+</ROWS></TABLE>
+</ROOT>

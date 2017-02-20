@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="79373974-3E09-4BF7-A225-BF87EC463702" ModuleId="SGC Tool" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms_1" />
+</Modules>

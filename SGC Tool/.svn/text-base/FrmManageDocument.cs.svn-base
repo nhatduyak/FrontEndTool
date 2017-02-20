@@ -1,0 +1,322 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Windows.Forms;
+using SGC_Tool.MyControls;
+
+namespace SGC_Tool
+{
+    public partial class FrmManageDocument : Form
+    {
+        public FrmManageDocument(string idNhanVien)
+        {
+            InitializeComponent();
+            _control = new CTLXuLyAddNewApplication_Master();
+            LoadTree();
+            LoadContextMenu();
+            IdNhanVien = idNhanVien;
+            rte.Visible = false;
+            panelControl2.Controls.Add(rte);
+            rte.Dock = DockStyle.Fill;
+        }
+
+        public string IdNhanVien;
+        private CTLXuLyAddNewApplication_Master _control;
+        private string currentID;
+        void LoadTree()
+        {
+            DataTable lstApp = _control.LoadAllApplication();
+            TreeNode root = new TreeNode("Quản lý document");
+            root.Name = "-1";
+            tvDocument.Nodes.Add(root);
+            foreach(DataRow row in lstApp.Rows)
+            {
+                TreeNode nodeApp = new TreeNode(Convert.ToString(row[0]));
+                nodeApp.ImageIndex = 0;
+                nodeApp.SelectedImageIndex = 0;
+                DataTable lstItem = _control.LoadDetailForApp(nodeApp.Text);
+                root.Nodes.Add(nodeApp);
+                foreach(DataRow rowItem in lstItem.Rows)
+                {
+                    TreeNode nodeItem = new TreeNode(Convert.ToString(rowItem["Item"]), 1, 1);
+                    nodeApp.Nodes.Add(nodeItem);
+                    DataTable issue = _control.LoadDocIssue(nodeApp.Text, nodeItem.Text);
+                    foreach(DataRow rowIssue in issue.Rows)
+                    {
+                        TreeNode nodeIssue = new TreeNode(Convert.ToString(rowIssue["Event"]),2,2);
+                        nodeIssue.Name = Convert.ToString(rowIssue["ID"]);
+                        nodeItem.Nodes.Add(nodeIssue);
+                    }
+                }
+            }
+            root.Expand();
+        }
+
+        void LoadContextMenu()
+        {
+            context.Items.Add("Thêm application");
+            context.Items.Add("Thêm item");
+            context.Items.Add("Soạn event");
+            context.Items[0].Width = 80;
+            context.Items[1].Width = 50;
+        }
+
+        private void tvDocument_MouseClick(object sender, MouseEventArgs e)
+        {
+
+            if(e.Button == MouseButtons.Right)
+            {
+                if(tvDocument.SelectedNode.Level == 0)
+                {
+                    // Thêm app
+                    context.Visible = true;
+                    context.Items[1].Visible = false;
+                    context.Items[2].Visible = false;
+                    context.Items[0].Visible = true;
+                    context.Show((Control) sender, e.X, e.Y);
+                    return;
+                }
+                if(tvDocument.SelectedNode.Level == 1)
+                {
+                    // Thêm detail
+                    context.Visible = true;
+                    context.Items[0].Visible = false;
+                    context.Items[1].Visible = true;
+                    context.Items[2].Visible = false;
+                    context.Show((Control)sender, e.X, e.Y);
+                    return;
+                }
+                if(tvDocument.SelectedNode.Level == 2)
+                {
+                    // Thêm event
+                    context.Visible = true;
+                    context.Items[0].Visible = false;
+                    context.Items[1].Visible = false;
+                    context.Items[2].Visible = true;
+                    context.Show((Control)sender, e.X, e.Y);
+                    return;
+                }
+                else
+                {
+                    context.Items[0].Visible = false;
+                    context.Items[1].Visible = false;
+                    context.Items[2].Visible = false;
+                    return;
+                }
+                
+            }
+        }
+
+        public string EventName;
+        private void context_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if(e.ClickedItem == context.Items[0])
+            {
+                // Thêm app
+                TreeNode node = new TreeNode("New application",0,0);
+                tvDocument.SelectedNode.Nodes.Add(node);
+                node.BeginEdit();
+
+            }
+            if (e.ClickedItem == context.Items[1])
+            {
+                // Thêm item
+                TreeNode node = new TreeNode("New item",1,1);
+                tvDocument.SelectedNode.Nodes.Add(node);
+                tvDocument.SelectedNode.Expand();
+                node.BeginEdit();
+
+            }
+            if (e.ClickedItem == context.Items[2])
+            {
+                // Thêm item
+                TreeNode node = new TreeNode("New event", 2, 2);
+                tvDocument.SelectedNode.Nodes.Add(node);
+                tvDocument.SelectedNode.Expand();
+                node.BeginEdit();
+                rte.Visible = true;
+                rte.AppName = tvDocument.SelectedNode.Parent.Text;
+                rte.Item = tvDocument.SelectedNode.Text;
+                rte.IDNhanVien = IdNhanVien;
+                rte.CreateDocument();
+            }
+        }
+
+        RichTextEdit rte = new RichTextEdit();
+        public List<DocAttachment> lstAtt;
+
+        private void tvDocument_AfterLabelEdit(object sender, NodeLabelEditEventArgs e)
+        {
+            if(e.Node.Level == 1) // Application
+            {
+                TreeNode root = tvDocument.Nodes.Find("-1", true)[0];
+                TreeNode des= FindNameInTreeView(root, e.Label);
+                if (!(des != null && des.Level == 1))
+                {
+                    _control.AddNewApp(e.Label, "");
+                }
+                else
+                {
+                    FrmMessage frm = new FrmMessage("Đã có application " + e.Label + ". Vui lòng dùng tên khác.");
+                    frm.ShowDialog();
+                    e.Node.Remove();
+                    return;
+                }
+            }
+            if(e.Node.Level == 2) // Add item
+            {
+                TreeNode root = tvDocument.Nodes.Find("-1", true)[0];
+                TreeNode des = FindNameInTreeView(root, e.Label);
+                if (!(des != null && des.Level == 2))
+                {
+                    if (_control.CheckEmptyApp(e.Node.Parent.Text))
+                    {
+                        _control.UpdateApp(e.Node.Parent.Text, e.Label);
+                    }
+                    else
+                    {
+                        _control.AddNewApp(e.Node.Parent.Text, e.Label);
+                    }
+                }
+                else
+                {
+                    FrmMessage frm = new FrmMessage("Đã có item " + e.Label + ". Vui lòng dùng tên khác.");
+                    frm.ShowDialog();
+                    e.Node.Remove();
+                    return;
+                }
+            }
+            if (e.Node.Level == 3) // Add issue
+            {
+                TreeNode root = tvDocument.Nodes.Find("-1", true)[0];
+                TreeNode des = FindNameInTreeView(root, e.Label);
+                if (!(des != null && des.Level == 3))
+                {
+                    if (_control.CheckEmptyApp(e.Node.Parent.Text))
+                    {
+                        _control.UpdateApp(e.Node.Parent.Text, e.Label);
+                    }
+                    else
+                    {
+                        _control.AddNewApp(e.Node.Parent.Text, e.Label);
+                    }
+                }
+                else
+                {
+                    FrmMessage frm = new FrmMessage("Đã có Event " + e.Label + ". Vui lòng dùng tên khác.");
+                    frm.ShowDialog();
+                    e.Node.Remove();
+                    rte.Hide();
+                    return;
+                }
+                EventName = e.Label;
+                rte.Event = e.Label;
+            }
+        }
+
+        private void tvDocument_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            lstAtt = new List<DocAttachment>();  
+            if(e.Node.Level == 3 && e.Button == MouseButtons.Left)
+            {
+                DataTable kq = _control.LoadDocIssue_Detail(e.Node.Text, e.Node.Parent.Parent.Text, e.Node.Parent.Text);
+                if (kq.Rows.Count > 0)
+                {
+                    string richText = Convert.ToString(kq.Rows[0]["IssueContent"]);
+                    string reference = Convert.ToString(kq.Rows[0]["Reference"]);
+                    string version = Convert.ToString(kq.Rows[0]["Version"]);
+                    string att = Convert.ToString(kq.Rows[0]["Title"]);
+                    currentID = e.Node.Name;
+                    if (att.Length > 0)
+                        att = att.Substring(0, att.Length - 1);
+                    
+                    //region xu ly viewdoc
+                    string[] lstatt = att.Split(';');
+                    att = " ";
+                    foreach (string s in lstatt)
+                    {
+                        if (s.Length > 0)
+                        {
+                            int index = s.IndexOf('-') + 1;
+                            int length = s.Length - index;
+                            att += s.Substring(index, length) + "; ";
+                            DocAttachment item = new DocAttachment();
+                            item.Id = s.Substring(0, s.IndexOf('-'));
+                            item.Name = s.Substring(index, length);
+                            item.Filepath = "";
+                            item.DocId = currentID;
+                            lstAtt.Add(item);
+                        }
+                    }
+                    if (att.Length > 0)
+                        att = att.Substring(0, att.Length - 1);
+                    //endregion 
+                    rte.Visible = true;
+                    rte.ViewDocument(richText,version,att,Convert.ToString(kq.Rows[0]["Title"]),reference,currentID);
+                    rte.GetListAttachment(lstAtt);
+                }
+            }
+        }
+
+        TreeNode FindNameInTreeView(TreeNode node, String nametxt)
+        {
+            // check if we have a node
+            if (node == null)
+                return null;
+            if (nametxt == null)
+                return null;
+            // check if the name of this node matches the one we're looking for
+            if (node.Text.ToLower().Contains(nametxt.ToLower()))
+                return node;
+
+            // iterate through the childs of this node
+            for (int i = 0; i < node.Nodes.Count; i++)
+            {
+                // call this same function to each child node
+                TreeNode foundNode = FindNameInTreeView(node.Nodes[i], nametxt);
+                // if we found the node, return it
+                if (foundNode != null)
+                    return foundNode;
+            }
+            return null;
+        }
+
+        private void FrmManageDocument_KeyDown(object sender, KeyEventArgs e)
+        {
+             if (e.KeyCode == Keys.Delete || e.KeyCode == Keys.Back)
+                if (this.rte.AttachmentText.Focused)
+                    this.rte.ribbonControl1_KeyDown(rte.AttachmentText, e);
+        }
+
+        private void tvDocument_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Delete)
+            {
+                if(tvDocument.SelectedNode.Level == 1)
+                {
+                    string name = tvDocument.SelectedNode.Text;
+                    if(_control.DeleteApplication(name))
+                    {
+                        tvDocument.Nodes.Remove(tvDocument.SelectedNode);
+                        FrmMessage frm = new FrmMessage("Đã xóa application " + name);
+                        frm.ShowDialog();
+                        return;
+                    }
+                    else
+                    {
+                        FrmMessage frm = new FrmMessage("Không xóa được application " + name);
+                        frm.ShowDialog();
+                        return;
+                    }
+                }
+                
+            }
+        }
+
+       
+
+       
+
+        
+    }
+}

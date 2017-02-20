@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config> 
+  <LoaiCan Value="2"/>
+  <DBNameFrontEnd Value="SGCReport"/>
+<ChucNang Value="0,1,2,3"/>	
+<PathFileWindss Value="H:\Data"/>
+<Timemer Value="1"/>
+<AppType Value="12"/>   
+<IsManager Value="0"/>
+<StrKillApp Value="FrontEnd Utilities Main"/>   
+  <StrStartApp Value="FrontEnd Utilities Main.exe"/>
+<DeleteFile Value="1.txt,2.txt"/>
+  /* enum LoaiCan
+      Bizerba=0
+      Bizerba hard lock=1
+      Mettle toltdo=2
+*/
+ /* enum ChucNang
+      	Scale adappter tool=0
+      	Price,CIM checked=1    
+   	kiemTraSieuThi=2
+      	AutoUpDate=3  
+*/
+/* enum AuToUpdate
+      	Cap nhat cho chuong trinh autoupdate apptype=-1
+      	Cap nhat cho chuong trinh ManagerTool apptype=0
+	Cap nhat cho chuong trinh KHTTTV-Report apptype=1
+	Cap nhat cho chuong trinh FrontEnd Tool apptype=12
+</Config>

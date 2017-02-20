@@ -1,0 +1,23 @@
+R# version: 5.1.1727.12
+assembly DevExpress.XtraRichEdit.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+  file C:\Program Files\DevExpress 2009.3\Components\Sources\DevExpress.DLL\DevExpress.XtraRichEdit.v9.3.dll mtime 2/1/2010 1:54:01 AM
+referenced assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll mtime 7/25/2008 4:17:00 AM
+referenced assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll mtime 7/25/2008 4:17:00 AM
+referenced assembly DevExpress.Data.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+  file C:\Program Files\DevExpress 2009.3\Components\Sources\DevExpress.DLL\DevExpress.Data.v9.3.dll mtime 2/1/2010 1:52:36 AM
+referenced assembly DevExpress.Utils.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+  file C:\Program Files\DevExpress 2009.3\Components\Sources\DevExpress.DLL\DevExpress.Utils.v9.3.dll mtime 2/1/2010 1:53:02 AM
+referenced assembly DevExpress.XtraEditors.v9.3, Version=9.3.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+  file C:\Program Files\DevExpress 2009.3\Components\Sources\DevExpress.DLL\DevExpress.XtraEditors.v9.3.dll mtime 2/1/2010 1:53:18 AM
+referenced assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll mtime 7/25/2008 4:17:00 AM
+referenced assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll mtime 7/25/2008 4:17:00 AM
+referenced assembly System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Web.dll mtime 7/25/2008 4:17:00 AM
+referenced assembly System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll mtime 7/25/2008 4:17:00 AM
+referenced assembly System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll mtime 7/25/2008 4:17:00 AM

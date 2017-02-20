@@ -1,0 +1,144 @@
+E:\Coding\SGC Tool\SGC Tool\bin\Debug\SGC Tool.exe
+E:\Coding\SGC Tool\SGC Tool\bin\Debug\SGC Tool.pdb
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\ResolveAssemblyReference.cache
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC_Tool.FrmMasterCompose.resources
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC_Tool.MainForm.resources
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC_Tool.Properties.Resources.resources
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC Tool.csproj.GenerateResource.Cache
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC Tool.exe.licenses
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC Tool.exe
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC Tool.pdb
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC_Tool.FrmMessage.resources
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC_Tool.FrmManageDocument.resources
+E:\Coding\SGC Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.RichTextEdit.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\ResolveAssemblyReference.cache
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmManageDocument.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmMessage.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MainForm.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.RichTextEdit.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.Properties.Resources.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC Tool.csproj.GenerateResource.Cache
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmLogIn.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.Attachment.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmSearchBug.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.ControlAtt.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmConfirm.resources
+E:\Coding\SGC Tool\Tool\SGC Tool\bin\Debug\FrontEnd Utilities.exe
+E:\Coding\SGC Tool\Tool\SGC Tool\bin\Debug\FrontEnd Utilities.pdb
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\FrontEnd Utilities.exe.licenses
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\FrontEnd Utilities.exe
+E:\Coding\SGC Tool\Tool\SGC Tool\obj\Debug\FrontEnd Utilities.pdb
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\FrontEnd Utilities.exe
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\FrontEnd Utilities.pdb
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\ResolveAssemblyReference.cache
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmConfirm.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmLogIn.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmManageDocument.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmMessage.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmScaleAdappterTool.FrmImportfile.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmScaleAdappterTool.FrmScaleAddTool.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmSearchBug.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.SplashScreen.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MainForm.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.Attachment.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.ControlAtt.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.RichTextEdit.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.Properties.Resources.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC Tool.csproj.GenerateResource.Cache
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\FrontEnd Utilities.exe.licenses
+D:\SGC Tool\Tool\SGC Tool\bin\Debug\FrontEnd Utilities.exe
+D:\SGC Tool\Tool\SGC Tool\bin\Debug\FrontEnd Utilities.pdb
+D:\SGC Tool\Tool\SGC Tool\bin\Debug\TPMessageBox.dll
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.MyForm.CheckPrice.CheckGiaFull.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.MyForm.CheckPrice.FrmCheckGia.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\CheckPrice.FrmCheHet.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.MyForm.FrmmainCheckPrice.Frmkiot.resources
+D:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmAddComment.resources
+E:\SGC Tool\Tool\SGC Tool\bin\Debug\FrontEnd Utilities Main.exe
+E:\SGC Tool\Tool\SGC Tool\bin\Debug\TPMessageBox.dll
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\ResolveAssemblyReference.cache
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC Tool.csproj.ResolveComReference.cache
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.MyForm.CheckPrice.CheckGiaFull.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.CheckPrice.FormCheckGiaMoi.FrmCheckGiaNew.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.MyForm.CheckPrice.FrmCheckGia.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\CheckPrice.FrmCheHet.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.MyForm.FrmmainCheckPrice.Frmkiot.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmAddComment.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmBangbaoGia.FrmbangBaoGia.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmBangbaoGia.FrmNhapLyDo.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmBangbaoGia.FrmSearchBBGia.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmBangbaoGia.FrmThongTinKMOfSKU.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmConfirm.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmDonDatHang.FrmDonDatHang.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmImage.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmLogIn.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmManageDocument.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmMessage.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmScaleAdappterTool.FrmImportfile.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmScaleAdappterTool.FrmScaleAddTool.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmSearchBug.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.SplashScreen.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MainForm.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.Attachment.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.ControlAtt.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.RichTextEdit.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.Properties.Resources.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.SyncPrice.FrmSyncPrice.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC Tool.csproj.GenerateResource.Cache
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\FrontEnd Utilities Main.exe.licenses
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\FrontEnd Utilities Main.exe
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\FrontEnd Utilities Main.pdb
+E:\SGC Tool\Tool\SGC Tool\bin\Debug\FrontEnd Utilities Main.pdb
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmDonDatHang.FrmQuanlyDDH.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmDonDatHang.FrmCTDonDatHang.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.CheckSKU_CKTM.FrmCheckSKU_CKTM.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.CheckFileT.FrmCheckFileT.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.CheckSKU_CKTM.FrmCheckCurrentcy.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.Test.TestFrm.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmTest.resources
+E:\SGC Tool\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmScaleAdappterTool.FrmThongBaoExport.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC Tool.csproj.ResolveComReference.cache
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\FrontEnd Utilities Main.exe
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\FrontEnd Utilities Main.pdb
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\ResolveAssemblyReference.cache
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.CheckFileT.FrmCheckFileT.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.MyForm.CheckPrice.CheckGiaFull.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.MyForm.CheckPrice.FrmCheckGia.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.CheckPrice.FormCheckGiaMoi.FrmCheckGiaNew.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\CheckPrice.FrmCheHet.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.MyForm.FrmmainCheckPrice.Frmkiot.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.CheckSKU_CKTM.FrmCheckSKU_CKTM.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.CheckSKU_CKTM.FrmCheckCurrentcy.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmAddComment.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmBangbaoGia.FrmbangBaoGia.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmBangbaoGia.FrmNhapLyDo.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmBangbaoGia.FrmSearchBBGia.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmBangbaoGia.FrmThongTinKMOfSKU.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmConfirm.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmDonDatHang.FrmCTDonDatHang.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmDonDatHang.FrmDonDatHang.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmDonDatHang.FrmQuanlyDDH.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmImage.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmLogIn.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmManageDocument.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmMessage.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmScaleAdappterTool.FrmImportfile.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmScaleAdappterTool.FrmScaleAddTool.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmScaleAdappterTool.FrmThongBaoExport.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmSearchBug.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.FrmTest.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\TOOLChuyenDuLieu.SplashScreen.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.Attachment.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.ControlAtt.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.MyControls.RichTextEdit.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.Properties.Resources.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.SyncPrice.FrmSyncPrice.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.Test.TestFrm.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC Tool.csproj.GenerateResource.Cache
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\SGC_Tool.MainForm.resources
+D:\Source-14-02-2017\Tool\SGC Tool\obj\Debug\FrontEnd Utilities Main.exe.licenses
+D:\Source-14-02-2017\Tool\SGC Tool\bin\Debug\FrontEnd Utilities Main.exe
+D:\Source-14-02-2017\Tool\SGC Tool\bin\Debug\FrontEnd Utilities Main.pdb
+D:\Source-14-02-2017\Tool\SGC Tool\bin\Debug\TPMessageBox.dll
+D:\Source-14-02-2017\Tool\SGC Tool\bin\Debug\office.dll
+D:\Source-14-02-2017\Tool\SGC Tool\bin\Debug\Microsoft.Vbe.Interop.dll

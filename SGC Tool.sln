@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupSGC Tool", "SetupSGC Tool\SetupSGC Tool.vdproj", "{20F9B911-FD42-4ADF-9789-0ACA85F1F948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGC Tool", "SGC Tool\SGC Tool.csproj", "{79373974-3E09-4BF7-A225-BF87EC463702}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20F9B911-FD42-4ADF-9789-0ACA85F1F948}.Debug|Any CPU.ActiveCfg = Debug
+		{20F9B911-FD42-4ADF-9789-0ACA85F1F948}.Release|Any CPU.ActiveCfg = Release
+		{79373974-3E09-4BF7-A225-BF87EC463702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79373974-3E09-4BF7-A225-BF87EC463702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79373974-3E09-4BF7-A225-BF87EC463702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79373974-3E09-4BF7-A225-BF87EC463702}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

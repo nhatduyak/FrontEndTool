@@ -1,0 +1,8 @@
+- Version b?n tháng 11.2012: 1.0.2012.511
+N?i dung c?p nh?t:
+	+Them Han su dung Tool Can PLU
+	+Don Dat Hang 
+
+-Version b?n thang 11.2012
+
+(Chi tiet vui long Xem trong FrontEnd Utility Tool->Thong tin ban cap nhat Trong CT Front End Tool hoac search theo key 'update Frontend' )

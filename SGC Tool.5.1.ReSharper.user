@@ -1,0 +1,897 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmManageDocument.cs" caret="4700" fromTop="33" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:ControlEntity/f:CTLImportExcel.cs" caret="1354" fromTop="29" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmDonDatHang/f:CTLDonDatHang.cs" caret="594" fromTop="18" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmImportfile.cs" caret="751" fromTop="4" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:HelpFile/f:WaitingMsg.cs" caret="146" fromTop="6" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:CurrentCy/f:FrmCheckCurrentcy.cs" caret="525" fromTop="2" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:EntityScaleAdHanDung.cs" caret="0" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:Properties/f:licenses.licx" caret="0" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:CheckSKU_CKTM/f:FrmCheckSKU_CKTM.cs" caret="10026" fromTop="8" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ConnectDb.cs" caret="1422" fromTop="12" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLSearchBug.cs" caret="703" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:CTLScaleHanDung.cs" caret="1847" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:ControlEntity/f:TpsDataAccess.cs" caret="5555" fromTop="25" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmSearchBug.cs" caret="5131" fromTop="4" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:CheckPrice/f:Frmkiot.cs" caret="14237" fromTop="11" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:CTLQuanLyForm.cs" caret="95" fromTop="3" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:Program.cs" caret="0" fromTop="0" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:Md5.cs" caret="103" fromTop="3" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:MyControls/f:ReadXML.cs" caret="1137" fromTop="27" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:MainForm.cs" caret="5248" fromTop="6" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:FrmLogIn.cs" caret="1701" fromTop="9" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:ControlEntity/f:Config.cs" caret="5966" fromTop="10" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmThongBaoExport.cs" caret="591" fromTop="12" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="52058" fromTop="1" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:HelpFile/f:SQLHelper.cs" caret="1662" fromTop="9" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:SyncPrice/f:FrmSyncPrice.cs" caret="4301" fromTop="23" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:HelpFile/f:CTLAutoUpdate.cs" caret="4328" fromTop="9" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:CheckPrice/d:FormCheckGiaMoi/f:FrmCheckGiaNew.cs" caret="972" fromTop="4" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:CheckPrice/f:FormCheckGiaFull.cs" caret="5953" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="53684" fromTop="10" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:HelpFile/f:SQLHelper.cs" caret="7149" fromTop="3" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="2794" fromTop="9" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="53924" fromTop="16" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="54766" fromTop="11" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="55068" fromTop="13" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="55208" fromTop="17" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="55342" fromTop="24" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="55901" fromTop="19" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="56351" fromTop="22" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="56617" fromTop="16" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="55328" fromTop="6" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="51612" fromTop="8" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="45195" fromTop="8" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="42926" fromTop="18" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="61694" fromTop="12" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="61851" fromTop="20" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="62262" fromTop="24" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="61178" fromTop="9" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="61104" fromTop="7" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="62540" fromTop="16" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="57359" fromTop="7" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="52363" fromTop="7" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="57060" fromTop="7" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="58238" fromTop="6" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/f:MainForm.cs" caret="8652" fromTop="23" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmThongBaoExport.cs" caret="390" fromTop="4" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmThongBaoExport.cs" caret="591" fromTop="12" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:FrmScaleAdappterTool/f:FrmScaleAddTool.cs" caret="8387" fromTop="5" />
+      <File id="79373974-3E09-4BF7-A225-BF87EC463702/d:CheckPrice/d:FormCheckGiaMoi/f:FrmCheckGiaNew.cs" caret="11852" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.6.2\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="33" />
+      <Item value="bool" priority="21" />
+      <Item value="false" priority="56" />
+      <Item value="return" priority="38" />
+      <Item value="flag" priority="2" />
+      <Item value="try" priority="13" />
+      <Item value="new" priority="29" />
+      <Item value="AbandonedMutexException" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="ex" priority="1" />
+      <Item value="DataTable`0" priority="17" />
+      <Item value="string" priority="64" />
+      <Item value="DataTable" priority="4" />
+      <Item value="dt" priority="7" />
+      <Item value="null" priority="31" />
+      <Item value="_control" priority="0" />
+      <Item value="_dataFeedBack" priority="2" />
+      <Item value="true" priority="41" />
+      <Item value="if" priority="76" />
+      <Item value="node" priority="9" />
+      <Item value="CheckFeedback`0" priority="0" />
+      <Item value="btAddCm" priority="0" />
+      <Item value="btviewCm" priority="4" />
+      <Item value="else" priority="15" />
+      <Item value="_isfeedback" priority="2" />
+      <Item value="txtserch" priority="0" />
+      <Item value="richTextEdit" priority="1" />
+      <Item value="RichTextEdit" priority="0" />
+      <Item value="FrmAddComment`0" priority="0" />
+      <Item value="addComment" priority="4" />
+      <Item value="FrmAddComment" priority="0" />
+      <Item value="issueid" priority="0" />
+      <Item value="detail" priority="0" />
+      <Item value="idcreate" priority="0" />
+      <Item value="attID" priority="0" />
+      <Item value="sql" priority="1" />
+      <Item value="CTLSearchBug`0" priority="0" />
+      <Item value="searchBug" priority="1" />
+      <Item value="CTLSearchBug" priority="0" />
+      <Item value="_IDIsuee" priority="0" />
+      <Item value="_IDCreate" priority="0" />
+      <Item value="static" priority="5" />
+      <Item value="Config`0" priority="13" />
+      <Item value="_IDDocument" priority="1" />
+      <Item value="THANHCONG" priority="2" />
+      <Item value="DONGY" priority="9" />
+      <Item value="this" priority="12" />
+      <Item value="iddocument" priority="0" />
+      <Item value="nodeselect" priority="1" />
+      <Item value="IsAccessible" priority="0" />
+      <Item value="_isshowdocumet" priority="1" />
+      <Item value="_document" priority="2" />
+      <Item value="foreach" priority="10" />
+      <Item value="DataRow`0" priority="9" />
+      <Item value="dataRow" priority="2" />
+      <Item value="Webdetail" priority="12" />
+      <Item value="de" priority="1" />
+      <Item value="int" priority="9" />
+      <Item value="i" priority="9" />
+      <Item value="void" priority="8" />
+      <Item value="d" priority="0" />
+      <Item value="Editor" priority="0" />
+      <Item value="DateTime`0" priority="9" />
+      <Item value="title" priority="0" />
+      <Item value="richEditControl" priority="7" />
+      <Item value="RichEditControl" priority="0" />
+      <Item value="s" priority="0" />
+      <Item value="labelControl2" priority="0" />
+      <Item value="labelControl3" priority="0" />
+      <Item value="txtVersion" priority="0" />
+      <Item value="txtAtt" priority="0" />
+      <Item value="txtReference" priority="0" />
+      <Item value="TreeNode`0" priority="1" />
+      <Item value="Length" priority="1" />
+      <Item value="addtitle" priority="4" />
+      <Item value="while" priority="0" />
+      <Item value="Title" priority="1" />
+      <Item value="frmLogIn" priority="2" />
+      <Item value="ten" priority="1" />
+      <Item value="Frmkiot`0" priority="2" />
+      <Item value="Frmkiot" priority="0" />
+      <Item value="e" priority="32" />
+      <Item value="Enter" priority="1" />
+      <Item value="rte" priority="9" />
+      <Item value="HOI" priority="2" />
+      <Item value="CO_KHONG" priority="2" />
+      <Item value="CO" priority="1" />
+      <Item value="Path`0" priority="4" />
+      <Item value="Keys`0" priority="2" />
+      <Item value="txtsku" priority="2" />
+      <Item value="path" priority="3" />
+      <Item value="FileInfo`0" priority="1" />
+      <Item value="fileInfo" priority="1" />
+      <Item value="FileInfo" priority="0" />
+      <Item value="DirectoryInfo`0" priority="1" />
+      <Item value="directoryInfo" priority="4" />
+      <Item value="DirectoryInfo" priority="1" />
+      <Item value="copyfile`0" priority="0" />
+      <Item value="CTLError`0" priority="1" />
+      <Item value="XmlNamespaceManager`0" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="for" priority="3" />
+      <Item value="spl" priority="2" />
+      <Item value="skufromfile" priority="0" />
+      <Item value="break" priority="0" />
+      <Item value="_PathFileINVMST" priority="3" />
+      <Item value="elm1" priority="0" />
+      <Item value="Item" priority="0" />
+      <Item value="EventHandler" priority="0" />
+      <Item value="_istextChange" priority="0" />
+      <Item value="_isload" priority="4" />
+      <Item value="_isModify" priority="0" />
+      <Item value="LOI" priority="4" />
+      <Item value="InfoMessage`0" priority="9" />
+      <Item value="HinhAnhThongBao`0" priority="0" />
+      <Item value="THONGTIN" priority="1" />
+      <Item value="KetQuaThongBao`0" priority="1" />
+      <Item value="NutThongBao`0" priority="1" />
+      <Item value="AppName" priority="0" />
+      <Item value="helper" priority="3" />
+      <Item value="Version" priority="0" />
+      <Item value="strVersion" priority="2" />
+      <Item value="strCurrenVersion" priority="0" />
+      <Item value="Application`0" priority="2" />
+      <Item value="object" priority="0" />
+      <Item value="identity" priority="0" />
+      <Item value="f" priority="0" />
+      <Item value="FrmImage`0" priority="2" />
+      <Item value="frm" priority="7" />
+      <Item value="DrawMode`0" priority="0" />
+      <Item value="xtraTabbedMdiManager" priority="2" />
+      <Item value="createdocument" priority="0" />
+      <Item value="_TableAttfile" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="_sokhong" priority="1" />
+      <Item value="txtSKU" priority="5" />
+      <Item value="clearData`0" priority="0" />
+      <Item value="_indexadd" priority="1" />
+      <Item value="sku" priority="11" />
+      <Item value="upc" priority="4" />
+      <Item value="_dsSKUAdd" priority="3" />
+      <Item value="validate`0" priority="0" />
+      <Item value="row" priority="19" />
+      <Item value="gridView1" priority="17" />
+      <Item value="GrDSSKU" priority="8" />
+      <Item value="_dsSKU" priority="0" />
+      <Item value="DataSet`0" priority="0" />
+      <Item value="Convert`0" priority="14" />
+      <Item value="OpenFileDialog`0" priority="0" />
+      <Item value="OpenFileDialog" priority="0" />
+      <Item value="open" priority="1" />
+      <Item value="OK" priority="0" />
+      <Item value="SaveFileDialog`0" priority="1" />
+      <Item value="save" priority="5" />
+      <Item value="v" priority="0" />
+      <Item value="txtsoluong" priority="0" />
+      <Item value="access" priority="3" />
+      <Item value="tbg" priority="0" />
+      <Item value="ApplicationContext" priority="0" />
+      <Item value="SplashScreen`0" priority="8" />
+      <Item value="exception" priority="1" />
+      <Item value="xlWorkSheet" priority="0" />
+      <Item value="index" priority="2" />
+      <Item value="misValue" priority="0" />
+      <Item value="value" priority="1" />
+      <Item value="CTLImportExcel`0" priority="0" />
+      <Item value="excel" priority="1" />
+      <Item value="CTLImportExcel" priority="0" />
+      <Item value="txtghichu" priority="2" />
+      <Item value="Style`0" priority="2" />
+      <Item value="ColorFormat`0" priority="0" />
+      <Item value="Font" priority="0" />
+      <Item value="Color`0" priority="4" />
+      <Item value="chartRange" priority="4" />
+      <Item value="waitingMsg" priority="2" />
+      <Item value="WaitingMsg" priority="0" />
+      <Item value="_SKU" priority="3" />
+      <Item value="dtinv" priority="2" />
+      <Item value="labsku" priority="0" />
+      <Item value="labUPC" priority="0" />
+      <Item value="Label" priority="0" />
+      <Item value="lmt2" priority="4" />
+      <Item value="labKM" priority="3" />
+      <Item value="LabMethog2" priority="0" />
+      <Item value="flowLayoutPanel1" priority="4" />
+      <Item value="labMethod25" priority="0" />
+      <Item value="strMT20" priority="1" />
+      <Item value="lable" priority="10" />
+      <Item value="strMT21" priority="1" />
+      <Item value="strMT22" priority="1" />
+      <Item value="LoadForm`0" priority="0" />
+      <Item value="Escape" priority="0" />
+      <Item value="FrmThongTinKMOfSKU`0" priority="0" />
+      <Item value="FrmThongTinKMOfSKU" priority="0" />
+      <Item value="txtDienThoai" priority="2" />
+      <Item value="txtDiaChi" priority="2" />
+      <Item value="txthotenKH" priority="3" />
+      <Item value="temp" priority="1" />
+      <Item value="header" priority="12" />
+      <Item value="xlSheet" priority="3" />
+      <Item value="Type`0" priority="1" />
+      <Item value="column" priority="1" />
+      <Item value="ICIM" priority="5" />
+      <Item value="name" priority="0" />
+      <Item value="dienthoai" priority="0" />
+      <Item value="DialogResult`0" priority="1" />
+      <Item value="dc" priority="0" />
+      <Item value="sohang" priority="1" />
+      <Item value="rowtemp" priority="0" />
+      <Item value="socot" priority="2" />
+      <Item value="HoTen" priority="0" />
+      <Item value="DC" priority="0" />
+      <Item value="isdate" priority="0" />
+      <Item value="from" priority="0" />
+      <Item value="From" priority="0" />
+      <Item value="To" priority="0" />
+      <Item value="EntityDonDatHang`0" priority="1" />
+      <Item value="dh" priority="20" />
+      <Item value="res" priority="1" />
+      <Item value="EntityCTDonDatHang`0" priority="1" />
+      <Item value="ct" priority="24" />
+      <Item value="Validate`0" priority="0" />
+      <Item value="EntityDonDatHang" priority="0" />
+      <Item value="Guid`0" priority="1" />
+      <Item value="decimal" priority="8" />
+      <Item value="id" priority="0" />
+      <Item value="soluong" priority="4" />
+      <Item value="thanhtien" priority="2" />
+      <Item value="CTLDonDatHang`0" priority="1" />
+      <Item value="ctlDonDatHang" priority="0" />
+      <Item value="CTLDonDatHang" priority="0" />
+      <Item value="kq" priority="2" />
+      <Item value="SQLHelper`0" priority="3" />
+      <Item value="sqlHelper" priority="4" />
+      <Item value="SQLHelper" priority="2" />
+      <Item value="ctdh" priority="0" />
+      <Item value="EntityCTDonDatHang" priority="0" />
+      <Item value="InsertCTDDH`0" priority="0" />
+      <Item value="Int32`0" priority="0" />
+      <Item value="UpdateDonDatHang`0" priority="0" />
+      <Item value="tongtien" priority="1" />
+      <Item value="btSave_Click`0" priority="0" />
+      <Item value="tableTemp" priority="0" />
+      <Item value="hashtable" priority="1" />
+      <Item value="r" priority="11" />
+      <Item value="groupBox1" priority="0" />
+      <Item value="sqlString" priority="0" />
+      <Item value="GridDSMa" priority="5" />
+      <Item value="continue" priority="0" />
+      <Item value="Int64`0" priority="0" />
+      <Item value="btCheckCKTM" priority="0" />
+      <Item value="tbM2" priority="0" />
+      <Item value="dtKM" priority="5" />
+      <Item value="Ngay" priority="4" />
+      <Item value="LocalIPAddress`0" priority="1" />
+      <Item value="ip" priority="2" />
+      <Item value="BTcheckFileT" priority="0" />
+      <Item value="labthongbao" priority="0" />
+      <Item value="FrmCheckFileT" priority="3" />
+      <Item value="frmKiemTrafileT" priority="0" />
+      <Item value="errorProvider1" priority="1" />
+      <Item value="validateForm`0" priority="0" />
+      <Item value="Ctl_LogIn`0" priority="0" />
+      <Item value="AccessibleEvents`0" priority="0" />
+      <Item value="Mast" priority="10" />
+      <Item value="TPMessageBox" priority="3" />
+      <Item value="tpMessageBox" priority="0" />
+      <Item value="DateTime" priority="0" />
+      <Item value="strfile" priority="0" />
+      <Item value="modify" priority="0" />
+      <Item value="dk" priority="0" />
+      <Item value="FrmCheckCurrentcy`0" priority="4" />
+      <Item value="frmCheckCurency" priority="2" />
+      <Item value="FrmCheckCurrentcy" priority="0" />
+      <Item value="btcheckcurrentcy" priority="0" />
+      <Item value="SendKeys`0" priority="0" />
+      <Item value="dttemp" priority="4" />
+      <Item value="source" priority="1" />
+      <Item value="nrow" priority="1" />
+      <Item value="server" priority="0" />
+      <Item value="dbname" priority="0" />
+      <Item value="user" priority="0" />
+      <Item value="pass" priority="0" />
+      <Item value="appName" priority="0" />
+      <Item value="Itemname" priority="0" />
+      <Item value="istest" priority="2" />
+      <Item value="_Tablemanin" priority="0" />
+      <Item value="_istestbug" priority="3" />
+      <Item value="createdocumentTEST" priority="3" />
+      <Item value="mobj_SqlConnection" priority="2" />
+      <Item value="SqlConnection`0" priority="1" />
+      <Item value="Hashtable`0" priority="0" />
+      <Item value="Hashtable" priority="0" />
+      <Item value="_tbDMGoc" priority="2" />
+      <Item value="LoadDMGoc`0" priority="0" />
+      <Item value="Currentprice" priority="0" />
+      <Item value="DMGocPrice" priority="0" />
+      <Item value="MessageBox`0" priority="0" />
+      <Item value="YesNo" priority="0" />
+      <Item value="countrow" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="RowCellClickEventArgs`0" priority="0" />
+      <Item value="rowstate" priority="1" />
+      <Item value="thongBaoExport" priority="0" />
+      <Item value="_isThoat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.MyControls.CTLSearchBug">
+      <Item value="GetDataFeedback`0" priority="0" />
+      <Item value="insert`0" priority="0" />
+      <Item value="InsertFeedBack`0" priority="0" />
+      <Item value="SearchByTEST`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNode">
+      <Item value="Level" priority="1" />
+      <Item value="Name" priority="1" />
+      <Item value="Text" priority="21" />
+      <Item value="Parent" priority="5" />
+      <Item value="EndEdit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraRichEdit.RichEditControl">
+      <Item value="Height" priority="0" />
+      <Item value="RtfText" priority="4" />
+      <Item value="Document" priority="7" />
+      <Item value="GetPositionFromPoint`0" priority="0" />
+      <Item value="Text" priority="1" />
+      <Item value="CreateNewDocument`0" priority="1" />
+      <Item value="HtmlText" priority="7" />
+      <Item value="Refresh`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.SimpleButton">
+      <Item value="Visible" priority="2" />
+      <Item value="Enabled" priority="2" />
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="17" />
+      <Item value="Visible" priority="1" />
+      <Item value="Clear`0" priority="2" />
+      <Item value="Focus`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="9" />
+      <Item value="Format`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.MyControls.RichTextEdit">
+      <Item value="Show`0" priority="0" />
+      <Item value="_IDIsuee" priority="0" />
+      <Item value="_IDCreate" priority="0" />
+      <Item value="_isfinish" priority="1" />
+      <Item value="isComment" priority="0" />
+      <Item value="Dispose`0" priority="0" />
+      <Item value="CloseDocument`0" priority="0" />
+      <Item value="Visible" priority="0" />
+      <Item value="TextChanged" priority="0" />
+      <Item value="_isModify" priority="6" />
+      <Item value="_isload" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmAddComment">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="richTextEdit1" priority="1" />
+      <Item value="Dispose`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TOOLChuyenDuLieu.ControlEntity.Config">
+      <Item value="_idcreate" priority="1" />
+      <Item value="_tennv" priority="3" />
+      <Item value="_tenst" priority="1" />
+      <Item value="_username" priority="0" />
+      <Item value="_pathfileWinDSS" priority="5" />
+      <Item value="GetConfiguration`0" priority="0" />
+      <Item value="LayCauHinh`0" priority="0" />
+      <Item value="CheckConfig`0" priority="0" />
+      <Item value="_version" priority="0" />
+      <Item value="_tableDMSKU" priority="0" />
+      <Item value="LoadDanhMucSKU`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TPMessageBox.InfoMessage">
+      <Item value="HienThi`0" priority="14" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmLogIn">
+      <Item value="ID" priority="0" />
+      <Item value="TenNV" priority="0" />
+      <Item value="MaST" priority="0" />
+      <Item value="_isfirt" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="19" />
+      <Item value="Dispose`0" priority="0" />
+      <Item value="Columns" priority="0" />
+      <Item value="NewRow`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="7" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraRichEdit.API.Native.Document">
+      <Item value="InsertRtfText`0" priority="1" />
+      <Item value="Text" priority="0" />
+      <Item value="CreatePosition`0" priority="0" />
+      <Item value="CaretPosition" priority="0" />
+      <Item value="RtfText" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="17" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="10" />
+      <Item value="Replace`0" priority="2" />
+      <Item value="Insert`0" priority="0" />
+      <Item value="Substring`0" priority="8" />
+      <Item value="Contains`0" priority="1" />
+      <Item value="ToUpper`0" priority="0" />
+      <Item value="Trim`0" priority="4" />
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="4" />
+      <Item value="AddDays`0" priority="3" />
+      <Item value="Day" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.LabelControl">
+      <Item value="Visible" priority="2" />
+      <Item value="Text" priority="2" />
+      <Item value="Font" priority="1" />
+      <Item value="ForeColor" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.MyControls.Attachment">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeView">
+      <Item value="AccessibilityObject" priority="0" />
+      <Item value="Nodes" priority="0" />
+      <Item value="SelectedNode" priority="0" />
+      <Item value="LabelEdit" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNodeCollection">
+      <Item value="Find`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SGC_Tool.MyControls.CTLQuanLyForm">
+      <Item value="formName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Remove`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmScaleAdappterTool.FrmScaleAddTool">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyEventArgs">
+      <Item value="KeyCode" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TPMessageBox.KetQuaThongBao">
+      <Item value="KHONG" priority="0" />
+      <Item value="CO" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="Combine`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Keys">
+      <Item value="Enter" priority="1" />
+      <Item value="F4" priority="0" />
+      <Item value="Escape" priority="0" />
+      <Item value="F1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="Exists" priority="0" />
+      <Item value="Create`0" priority="0" />
+      <Item value="GetFiles`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TOOLChuyenDuLieu.ControlEntity.CTLError">
+      <Item value="WriteError`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="StartupPath" priority="2" />
+      <Item value="Exit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNodeList">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.NodeLabelEditEventArgs">
+      <Item value="Label" priority="19" />
+      <Item value="Node" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmMessage">
+      <Item value="ShowDialog`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TPMessageBox.HinhAnhThongBao">
+      <Item value="THONGTIN" priority="2" />
+      <Item value="THANHCONG" priority="1" />
+      <Item value="LOI" priority="1" />
+      <Item value="HOI" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TPMessageBox.NutThongBao">
+      <Item value="CO_KHONG" priority="0" />
+      <Item value="DONGY" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNodeMouseClickEventArgs">
+      <Item value="Node" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TOOLChuyenDuLieu.HelpFile.SQLHelper">
+      <Item value="GetExecuteScalarByCommand`0" priority="0" />
+      <Item value="BeginTransaction`0" priority="0" />
+      <Item value="Rollback`0" priority="0" />
+      <Item value="Commit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Version">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.CommandType">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="GetCurrentProcess`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="Kill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmImage">
+      <Item value="Refresh`0" priority="0" />
+      <Item value="CancelButton" priority="0" />
+      <Item value="IsHandleCreated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraTabbedMdi.XtraTabbedMdiManager">
+      <Item value="CreateObjRef`0" priority="0" />
+      <Item value="ClosePageButtonShowMode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.MainForm">
+      <Item value="Refresh`0" priority="1" />
+      <Item value="Update`0" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Hashtable">
+      <Item value="Indexer" priority="0" />
+      <Item value="Add`0" priority="2" />
+      <Item value="Contains`0" priority="1" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="ContainsKey`0" priority="0" />
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.Views.Grid.GridView">
+      <Item value="GetDataRow`0" priority="3" />
+      <Item value="GetSelectedRows`0" priority="1" />
+      <Item value="DataRowCount" priority="5" />
+      <Item value="GetRowCellValue`0" priority="0" />
+      <Item value="RowCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.GridControl">
+      <Item value="DataSource" priority="7" />
+      <Item value="ExportToXls`0" priority="1" />
+      <Item value="ViewCollection" priority="0" />
+      <Item value="DataMember" priority="0" />
+      <Item value="ExportToXlsx`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.Views.Base.CellValueChangedEventArgs">
+      <Item value="Column" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.Columns.GridColumn">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToDecimal`0" priority="14" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SaveFileDialog">
+      <Item value="FileName" priority="3" />
+      <Item value="Filter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.Repository.ViewRepositoryCollection">
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.NumericUpDown">
+      <Item value="Focus`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TOOLChuyenDuLieu.SplashScreen">
+      <Item value="SetTitleString`0" priority="1" />
+      <Item value="BeginDisplay`0" priority="1" />
+      <Item value="EndDisplay`0" priority="1" />
+      <Item value="SetCommentaryString`0" priority="0" />
+      <Item value="SetBackgroundImage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Excel.Application">
+      <Item value="Workbooks" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Excel.Workbooks">
+      <Item value="Open`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Excel.Worksheet">
+      <Item value="get_Range`0" priority="1" />
+      <Item value="Cells" priority="0" />
+      <Item value="Columns" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TOOLChuyenDuLieu.ControlEntity.CTLImportExcel">
+      <Item value="WireGhiChuExcel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Excel.Workbook">
+      <Item value="OpenLinks`0" priority="0" />
+      <Item value="Worksheets" priority="0" />
+      <Item value="Save`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Office.Interop.Excel.XlSaveAsAccessMode">
+      <Item value="xlShared" priority="0" />
+      <Item value="xlExclusive" priority="0" />
+      <Item value="xlNoChange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Office.Interop.Excel.XlFileFormat">
+      <Item value="xlWorkbookNormal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Excel.Range">
+      <Item value="Style" priority="8" />
+      <Item value="Font" priority="7" />
+      <Item value="Merge`0" priority="0" />
+      <Item value="FormulaR1C1" priority="0" />
+      <Item value="Borders" priority="0" />
+      <Item value="Interior" priority="1" />
+      <Item value="VerticalAlignment" priority="0" />
+      <Item value="HorizontalAlignment" priority="0" />
+      <Item value="AutoFit`0" priority="2" />
+      <Item value="AutoFormat`0" priority="0" />
+      <Item value="Worksheet" priority="0" />
+      <Item value="Cells" priority="1" />
+      <Item value="ColumnWidth" priority="2" />
+      <Item value="get_Range`0" priority="2" />
+      <Item value="Columns" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="ID" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="Value2" priority="0" />
+      <Item value="Column" priority="0" />
+      <Item value="FormatConditions" priority="0" />
+      <Item value="NumberFormat" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Excel.Font">
+      <Item value="ColorIndex" priority="0" />
+      <Item value="Color" priority="2" />
+      <Item value="FontStyle" priority="1" />
+      <Item value="ThemeColor" priority="0" />
+      <Item value="Bold" priority="1" />
+      <Item value="Background" priority="0" />
+      <Item value="Size" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Beige" priority="0" />
+      <Item value="Blue" priority="0" />
+      <Item value="Red" priority="3" />
+      <Item value="Yellow" priority="0" />
+      <Item value="LightGray" priority="0" />
+      <Item value="DarkGray" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Excel.Interior">
+      <Item value="Color" priority="0" />
+      <Item value="ColorIndex" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Image">
+      <Item value="FromFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmBangbaoGia.FrmSearchBBGia">
+      <Item value="components" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TOOLChuyenDuLieu.HelpFile.WaitingMsg">
+      <Item value="Finish`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmBangbaoGia.FrmbangBaoGia">
+      <Item value="AutoScaleBaseSize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TOOLChuyenDuLieu.TPSDataAccess">
+      <Item value="GetDataTable`0" priority="1" />
+      <Item value="getMaSieuthi`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="1" />
+      <Item value="Font" priority="3" />
+      <Item value="ForeColor" priority="1" />
+      <Item value="Enabled" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FlowLayoutPanel">
+      <Item value="Controls" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Add`0" priority="3" />
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmBangbaoGia.FrmThongTinKMOfSKU">
+      <Item value="components" priority="0" />
+      <Item value="Close`0" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="Missing" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Office.Interop.Excel.Constants">
+      <Item value="xlLeft" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmDonDatHang.EntityDonDatHang">
+      <Item value="ID" priority="3" />
+      <Item value="HoTen" priority="1" />
+      <Item value="DT" priority="1" />
+      <Item value="DiaChi" priority="1" />
+      <Item value="SoLuong" priority="2" />
+      <Item value="ThanTien" priority="1" />
+      <Item value="GhiChu" priority="1" />
+      <Item value="NgayTao" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmDonDatHang.EntityCTDonDatHang">
+      <Item value="ID" priority="1" />
+      <Item value="IDDonDatHang" priority="1" />
+      <Item value="SKU" priority="1" />
+      <Item value="UPC" priority="2" />
+      <Item value="TenSP" priority="1" />
+      <Item value="SoLuong" priority="2" />
+      <Item value="GiaGoc" priority="1" />
+      <Item value="ThanTien" priority="2" />
+      <Item value="GiaKM" priority="1" />
+      <Item value="GhiChu" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SGC_Tool.FrmDonDatHang.CTLDonDatHang">
+      <Item value="InsertCTDDH`0" priority="0" />
+      <Item value="InsertDonDatHang`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SGC_Tool.FrmScaleAdappterTool.CTLScaleHanDung">
+      <Item value="SearchHDScaleAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="AcceptChanges`0" priority="2" />
+      <Item value="RowState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.HelpFile.SQLHelper">
+      <Item value="GetDatasetByCommand`0" priority="1" />
+      <Item value="GetExecuteNonQueryByCommand`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataSet">
+      <Item value="Tables" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.CheckFileT.FrmCheckFileT">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DateTimePicker">
+      <Item value="Value" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripButton">
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ErrorProvider">
+      <Item value="SetError`0" priority="0" />
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraNavBar.NavBarItem">
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="Open`0" priority="1" />
+      <Item value="State" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.SqlClient.SqlConnection">
+      <Item value="ChangePassword`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DialogResult">
+      <Item value="Yes" priority="0" />
+      <Item value="No" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SGC_Tool.FrmScaleAdappterTool.FrmThongBaoExport">
+      <Item value="_isclose" priority="0" />
+      <Item value="_isThoat" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,363 @@
+﻿namespace SGC_Tool
+{
+    partial class MainForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
+            this.txtDBname = new DevExpress.XtraBars.BarStaticItem();
+            this.txtLogIn = new DevExpress.XtraBars.BarStaticItem();
+            this.txtDate = new DevExpress.XtraBars.BarStaticItem();
+            this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
+            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
+            this.barControl = new DevExpress.XtraNavBar.NavBarControl();
+            this.DocumentTool = new DevExpress.XtraNavBar.NavBarGroup();
+            this.btnMasterControl = new DevExpress.XtraNavBar.NavBarItem();
+            this.btnUseDocument = new DevExpress.XtraNavBar.NavBarItem();
+            this.WINDSSTool = new DevExpress.XtraNavBar.NavBarGroup();
+            this.btnInsertDataWinDSS = new DevExpress.XtraNavBar.NavBarItem();
+            this.btnScaleAdapterTool = new DevExpress.XtraNavBar.NavBarItem();
+            this.btnKiemTraSieuThi = new DevExpress.XtraNavBar.NavBarItem();
+            this.btnCheckPrice = new DevExpress.XtraNavBar.NavBarItem();
+            this.IntroGroup = new DevExpress.XtraNavBar.NavBarGroup();
+            this.barIntro = new DevExpress.XtraNavBar.NavBarControl();
+            this.barScaleAdapterTool = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroupControlContainer1 = new DevExpress.XtraNavBar.NavBarGroupControlContainer();
+            this.barInsertWINDSS = new DevExpress.XtraNavBar.NavBarGroup();
+            this.ItemInsertWINDSS = new DevExpress.XtraNavBar.NavBarItem();
+            this.barKiemTraSieuThi = new DevExpress.XtraNavBar.NavBarGroup();
+            this.barCheckPrice = new DevExpress.XtraNavBar.NavBarGroup();
+            this.ItemScaleAdapterTool = new DevExpress.XtraNavBar.NavBarItem();
+            this.ItemKiemTraSieuThi = new DevExpress.XtraNavBar.NavBarItem();
+            this.ItemCheckPrice = new DevExpress.XtraNavBar.NavBarItem();
+            this.xtraTabbedMdiManager = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barIntro)).BeginInit();
+            this.barIntro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // ribbonStatusBar
+            // 
+            this.ribbonStatusBar.ItemLinks.Add(this.txtDBname);
+            this.ribbonStatusBar.ItemLinks.Add(this.txtLogIn);
+            this.ribbonStatusBar.ItemLinks.Add(this.txtDate);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 575);
+            this.ribbonStatusBar.Name = "ribbonStatusBar";
+            this.ribbonStatusBar.Ribbon = this.ribbon;
+            this.ribbonStatusBar.Size = new System.Drawing.Size(690, 23);
+            // 
+            // txtDBname
+            // 
+            this.txtDBname.Caption = "Database: ";
+            this.txtDBname.Id = 0;
+            this.txtDBname.Name = "txtDBname";
+            this.txtDBname.TextAlignment = System.Drawing.StringAlignment.Near;
+            // 
+            // txtLogIn
+            // 
+            this.txtLogIn.Caption = "UserName:";
+            this.txtLogIn.Id = 1;
+            this.txtLogIn.Name = "txtLogIn";
+            this.txtLogIn.TextAlignment = System.Drawing.StringAlignment.Near;
+            // 
+            // txtDate
+            // 
+            this.txtDate.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.txtDate.Caption = "Ngày: ";
+            this.txtDate.Id = 2;
+            this.txtDate.Name = "txtDate";
+            this.txtDate.TextAlignment = System.Drawing.StringAlignment.Near;
+            // 
+            // ribbon
+            // 
+            this.ribbon.ApplicationIcon = null;
+            this.ribbon.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.txtDBname,
+            this.txtLogIn,
+            this.txtDate});
+            this.ribbon.Location = new System.Drawing.Point(0, 0);
+            this.ribbon.MaxItemId = 3;
+            this.ribbon.Name = "ribbon";
+            this.ribbon.Size = new System.Drawing.Size(690, 53);
+            this.ribbon.StatusBar = this.ribbonStatusBar;
+            // 
+            // defaultLookAndFeel1
+            // 
+            this.defaultLookAndFeel1.LookAndFeel.SkinName = "Money Twins";
+            // 
+            // barControl
+            // 
+            this.barControl.ActiveGroup = this.DocumentTool;
+            this.barControl.ContentButtonHint = null;
+            this.barControl.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barControl.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
+            this.WINDSSTool,
+            this.DocumentTool});
+            this.barControl.Items.AddRange(new DevExpress.XtraNavBar.NavBarItem[] {
+            this.btnInsertDataWinDSS,
+            this.btnScaleAdapterTool,
+            this.btnKiemTraSieuThi,
+            this.btnCheckPrice,
+            this.btnMasterControl,
+            this.btnUseDocument});
+            this.barControl.LinkInterval = 0;
+            this.barControl.Location = new System.Drawing.Point(0, 53);
+            this.barControl.LookAndFeel.SkinName = "Money Twins";
+            this.barControl.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.barControl.Name = "barControl";
+            this.barControl.OptionsNavPane.ExpandedWidth = 162;
+            this.barControl.OptionsNavPane.ShowOverflowPanel = false;
+            this.barControl.PaintStyleKind = DevExpress.XtraNavBar.NavBarViewKind.NavigationPane;
+            this.barControl.Size = new System.Drawing.Size(162, 522);
+            this.barControl.TabIndex = 5;
+            this.barControl.Text = "Chương trình";
+            this.barControl.HotTrackedLinkChanged += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.barControl_HotTrackedLinkChanged);
+            // 
+            // DocumentTool
+            // 
+            this.DocumentTool.Caption = "Cẩm nang sử dụng";
+            this.DocumentTool.Expanded = true;
+            this.DocumentTool.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.LargeIconsList;
+            this.DocumentTool.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.btnMasterControl),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.btnUseDocument)});
+            this.DocumentTool.Name = "DocumentTool";
+            // 
+            // btnMasterControl
+            // 
+            this.btnMasterControl.Caption = "Quản lý cẩm nang";
+            this.btnMasterControl.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnMasterControl.LargeImage")));
+            this.btnMasterControl.Name = "btnMasterControl";
+            this.btnMasterControl.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.btnMasterControl_LinkClicked);
+            // 
+            // btnUseDocument
+            // 
+            this.btnUseDocument.Caption = "Sử dụng cẩm nang";
+            this.btnUseDocument.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnUseDocument.LargeImage")));
+            this.btnUseDocument.Name = "btnUseDocument";
+            this.btnUseDocument.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.btnUseDocument_LinkClicked);
+            // 
+            // WINDSSTool
+            // 
+            this.WINDSSTool.Caption = "Tool for WINDSS";
+            this.WINDSSTool.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.LargeIconsText;
+            this.WINDSSTool.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.btnInsertDataWinDSS),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.btnScaleAdapterTool),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.btnKiemTraSieuThi),
+            new DevExpress.XtraNavBar.NavBarItemLink(this.btnCheckPrice)});
+            this.WINDSSTool.Name = "WINDSSTool";
+            // 
+            // btnInsertDataWinDSS
+            // 
+            this.btnInsertDataWinDSS.Caption = "Insert Data WINDSS";
+            this.btnInsertDataWinDSS.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnInsertDataWinDSS.LargeImage")));
+            this.btnInsertDataWinDSS.Name = "btnInsertDataWinDSS";
+            // 
+            // btnScaleAdapterTool
+            // 
+            this.btnScaleAdapterTool.Caption = "Scale Adapter Tool";
+            this.btnScaleAdapterTool.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnScaleAdapterTool.LargeImage")));
+            this.btnScaleAdapterTool.Name = "btnScaleAdapterTool";
+            // 
+            // btnKiemTraSieuThi
+            // 
+            this.btnKiemTraSieuThi.Caption = "Kiểm tra siêu thị";
+            this.btnKiemTraSieuThi.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnKiemTraSieuThi.LargeImage")));
+            this.btnKiemTraSieuThi.Name = "btnKiemTraSieuThi";
+            // 
+            // btnCheckPrice
+            // 
+            this.btnCheckPrice.Caption = "Check Price Tool";
+            this.btnCheckPrice.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnCheckPrice.LargeImage")));
+            this.btnCheckPrice.Name = "btnCheckPrice";
+            // 
+            // IntroGroup
+            // 
+            this.IntroGroup.Caption = "Giới thiệu chung";
+            this.IntroGroup.Expanded = true;
+            this.IntroGroup.Name = "IntroGroup";
+            // 
+            // barIntro
+            // 
+            this.barIntro.ActiveGroup = this.barScaleAdapterTool;
+            this.barIntro.AllowSelectedLink = true;
+            this.barIntro.ContentButtonHint = null;
+            this.barIntro.Controls.Add(this.navBarGroupControlContainer1);
+            this.barIntro.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barIntro.EachGroupHasSelectedLink = true;
+            this.barIntro.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
+            this.barInsertWINDSS,
+            this.barScaleAdapterTool,
+            this.barKiemTraSieuThi,
+            this.barCheckPrice});
+            this.barIntro.HideGroupCaptions = true;
+            this.barIntro.Items.AddRange(new DevExpress.XtraNavBar.NavBarItem[] {
+            this.ItemInsertWINDSS,
+            this.ItemScaleAdapterTool,
+            this.ItemKiemTraSieuThi,
+            this.ItemCheckPrice});
+            this.barIntro.Location = new System.Drawing.Point(651, 53);
+            this.barIntro.Name = "barIntro";
+            this.barIntro.NavigationPaneOverflowPanelUseSmallImages = false;
+            this.barIntro.OptionsNavPane.AnimationFramesCount = 1;
+            this.barIntro.OptionsNavPane.ExpandedWidth = 530;
+            this.barIntro.OptionsNavPane.NavPaneState = DevExpress.XtraNavBar.NavPaneState.Collapsed;
+            this.barIntro.OptionsNavPane.ShowExpandButton = false;
+            this.barIntro.OptionsNavPane.ShowOverflowPanel = false;
+            this.barIntro.OptionsNavPane.ShowSplitter = false;
+            this.barIntro.PaintStyleKind = DevExpress.XtraNavBar.NavBarViewKind.NavigationPane;
+            this.barIntro.SelectLinkOnPress = false;
+            this.barIntro.ShowGroupHint = false;
+            this.barIntro.Size = new System.Drawing.Size(39, 522);
+            this.barIntro.TabIndex = 11;
+            this.barIntro.Visible = false;
+            // 
+            // barScaleAdapterTool
+            // 
+            this.barScaleAdapterTool.Caption = "Scale AdapterTool";
+            this.barScaleAdapterTool.Expanded = true;
+            this.barScaleAdapterTool.Name = "barScaleAdapterTool";
+            this.barScaleAdapterTool.NavigationPaneVisible = false;
+            // 
+            // navBarGroupControlContainer1
+            // 
+            this.navBarGroupControlContainer1.Name = "navBarGroupControlContainer1";
+            this.navBarGroupControlContainer1.Size = new System.Drawing.Size(528, 475);
+            this.navBarGroupControlContainer1.TabIndex = 0;
+            // 
+            // barInsertWINDSS
+            // 
+            this.barInsertWINDSS.Caption = "Insert Data WINDSS";
+            this.barInsertWINDSS.ControlContainer = this.navBarGroupControlContainer1;
+            this.barInsertWINDSS.GroupClientHeight = 80;
+            this.barInsertWINDSS.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer;
+            this.barInsertWINDSS.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.ItemInsertWINDSS)});
+            this.barInsertWINDSS.Name = "barInsertWINDSS";
+            this.barInsertWINDSS.NavigationPaneVisible = false;
+            // 
+            // ItemInsertWINDSS
+            // 
+            this.ItemInsertWINDSS.Caption = "";
+            this.ItemInsertWINDSS.Name = "ItemInsertWINDSS";
+            // 
+            // barKiemTraSieuThi
+            // 
+            this.barKiemTraSieuThi.Caption = "Kiểm tra siêu thị";
+            this.barKiemTraSieuThi.Name = "barKiemTraSieuThi";
+            this.barKiemTraSieuThi.NavigationPaneVisible = false;
+            // 
+            // barCheckPrice
+            // 
+            this.barCheckPrice.Caption = "Check Price Tool";
+            this.barCheckPrice.Name = "barCheckPrice";
+            this.barCheckPrice.NavigationPaneVisible = false;
+            // 
+            // ItemScaleAdapterTool
+            // 
+            this.ItemScaleAdapterTool.Caption = "";
+            this.ItemScaleAdapterTool.Name = "ItemScaleAdapterTool";
+            // 
+            // ItemKiemTraSieuThi
+            // 
+            this.ItemKiemTraSieuThi.Caption = "";
+            this.ItemKiemTraSieuThi.Name = "ItemKiemTraSieuThi";
+            // 
+            // ItemCheckPrice
+            // 
+            this.ItemCheckPrice.Caption = "";
+            this.ItemCheckPrice.Name = "ItemCheckPrice";
+            // 
+            // xtraTabbedMdiManager
+            // 
+            this.xtraTabbedMdiManager.MdiParent = this;
+            // 
+            // MainForm
+            // 
+            this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.True;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(690, 598);
+            this.Controls.Add(this.barIntro);
+            this.Controls.Add(this.barControl);
+            this.Controls.Add(this.ribbonStatusBar);
+            this.Controls.Add(this.ribbon);
+            this.IsMdiContainer = true;
+            this.Name = "MainForm";
+            this.Ribbon = this.ribbon;
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StatusBar = this.ribbonStatusBar;
+            this.Text = "MainForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.MainForm_Load);
+            this.MdiChildActivate += new System.EventHandler(this.MainForm_MdiChildActivate);
+            ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barIntro)).EndInit();
+            this.barIntro.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
+        private DevExpress.XtraBars.Ribbon.RibbonControl ribbon;
+        private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
+        private DevExpress.XtraBars.BarStaticItem txtDBname;
+        private DevExpress.XtraBars.BarStaticItem txtLogIn;
+        private DevExpress.XtraBars.BarStaticItem txtDate;
+        private DevExpress.XtraNavBar.NavBarControl barControl;
+        private DevExpress.XtraNavBar.NavBarGroup WINDSSTool;
+        private DevExpress.XtraNavBar.NavBarItem btnInsertDataWinDSS;
+        private DevExpress.XtraNavBar.NavBarItem btnScaleAdapterTool;
+        private DevExpress.XtraNavBar.NavBarItem btnKiemTraSieuThi;
+        private DevExpress.XtraNavBar.NavBarItem btnCheckPrice;
+        private DevExpress.XtraNavBar.NavBarGroup IntroGroup;
+        private DevExpress.XtraNavBar.NavBarControl barIntro;
+        private DevExpress.XtraNavBar.NavBarGroup barInsertWINDSS;
+        private DevExpress.XtraNavBar.NavBarItem ItemInsertWINDSS;
+        private DevExpress.XtraNavBar.NavBarItem ItemScaleAdapterTool;
+        private DevExpress.XtraNavBar.NavBarItem ItemKiemTraSieuThi;
+        private DevExpress.XtraNavBar.NavBarItem ItemCheckPrice;
+        private DevExpress.XtraNavBar.NavBarGroup barScaleAdapterTool;
+        private DevExpress.XtraNavBar.NavBarGroup barKiemTraSieuThi;
+        private DevExpress.XtraNavBar.NavBarGroup barCheckPrice;
+        private DevExpress.XtraNavBar.NavBarGroupControlContainer navBarGroupControlContainer1;
+        private DevExpress.XtraNavBar.NavBarGroup DocumentTool;
+        private DevExpress.XtraNavBar.NavBarItem btnMasterControl;
+        private DevExpress.XtraNavBar.NavBarItem btnUseDocument;
+        private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager xtraTabbedMdiManager;
+    }
+}

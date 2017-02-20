@@ -1,0 +1,126 @@
+10
+
+dir
+1
+https://10.10.1.25:8443/svn/Tool/_ReSharper.SGC%20Tool
+https://10.10.1.25:8443/svn/Tool
+
+
+
+2011-04-20T01:58:34.687500Z
+1
+ngoctuyen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aab88902-013e-b541-8c3a-8671eca6e012
+
+SymbolCache.bin
+file
+
+
+
+
+2011-04-19T09:57:55.359375Z
+71bee6f6232e9cf4b8692ce7de05e0ac
+2011-04-20T01:58:34.687500Z
+1
+ngoctuyen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6602
+
+PdbInfo
+dir
+
+TagPrefixes
+dir
+
+WordIndex
+dir
+
+ModuleIds.xml
+file
+
+
+
+
+2011-04-19T07:07:12.718750Z
+6fb9a4656ad347a425ba662fe04ae9e1
+2011-04-20T01:58:34.687500Z
+1
+ngoctuyen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+381
+
+WebsiteFileReferences
+dir
+
+DecompilerCache
+dir
+
+ProjectModel
+dir
+
+BuildScriptCache
+dir
+
+TodoCache
+dir
+
+NamedArguments
+dir
+
+Resources
+dir
+

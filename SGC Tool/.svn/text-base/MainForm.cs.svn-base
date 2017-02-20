@@ -1,0 +1,168 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Text;
+using System.Windows.Forms;
+using DevExpress.XtraBars;
+using DevExpress.XtraNavBar;
+using SGC_Tool.MyControls;
+using TPMisc.PublicUtility;
+
+namespace SGC_Tool
+{
+    public partial class MainForm : DevExpress.XtraBars.Ribbon.RibbonForm
+    {
+        public MainForm()
+        {
+            InitializeComponent();
+            FirstRun();
+        }
+
+        private void barControl_HotTrackedLinkChanged(object sender, NavBarLinkEventArgs e)
+        {
+            NavBarControl control = (NavBarControl) sender;
+            if (control.HotTrackedLink != null)
+            {
+                if (control.HotTrackedLink.ItemName == "btnInsertDataWinDSS")
+                {
+                    barIntro.Visible = true;
+                    barIntro.OptionsNavPane.NavPaneState = NavPaneState.Expanded;
+                    barIntro.Groups[0].Expanded = true;
+                    barIntro.Dock = DockStyle.Fill;
+                    // Các group khách expand = false
+                }
+                if (control.HotTrackedLink.ItemName == "btnScaleAdapterTool")
+                {
+                    barIntro.Visible = true;
+                    barIntro.Groups[1].Expanded = true;
+                    barIntro.Dock = DockStyle.Fill;
+                    barIntro.OptionsNavPane.NavPaneState = NavPaneState.Expanded;
+                }
+                if (control.HotTrackedLink.ItemName == "btnKiemTraSieuThi")
+                {
+                    barIntro.Visible = true;
+                    barIntro.Groups[2].Expanded = true;
+                    barIntro.Dock = DockStyle.Fill;
+                    barIntro.OptionsNavPane.NavPaneState = NavPaneState.Expanded;
+                }
+                if (control.HotTrackedLink.ItemName == "btnCheckPrice")
+                {
+                    barIntro.Visible = true;
+                    barIntro.Groups[3].Expanded = true;
+                    barIntro.Dock = DockStyle.Fill;
+                    barIntro.OptionsNavPane.NavPaneState = NavPaneState.Expanded;
+                }
+            }
+
+        }
+
+        string str123 = "ThinhPhat@JSC@123";
+        private DataSet _dsKetNoi = new DataSet();
+
+        public void LayCauHinh()
+        {
+            byte[] key = Blowfish.GetBytes(this.str123).Clone() as byte[];
+            Blowfish blowfish = new Blowfish(key);
+            StringReader reader = new StringReader(blowfish.ReadFromFile(Application.StartupPath + @"\Config.tps"));
+            this._dsKetNoi = new DataSet();
+            this._dsKetNoi.ReadXml(reader);
+            if (this._dsKetNoi.Tables[0].Rows.Count < 1)
+            {
+                throw new Exception("File cấu hình không có kết nối nào");
+            }
+            ReadXML xml = new ReadXML();
+            xml.db_name = Convert.ToString(_dsKetNoi.Tables["KetNoi"].Rows[0]["DBName"]);
+            xml.db_server = Convert.ToString(_dsKetNoi.Tables["KetNoi"].Rows[0]["ServerName"]);
+            xml.db_username = Convert.ToString(_dsKetNoi.Tables["KetNoi"].Rows[0]["UserName"]);
+            xml.db_password = Convert.ToString(_dsKetNoi.Tables["KetNoi"].Rows[0]["Password"]);
+            ConnectDb.Connect(xml.db_server, xml.db_name, xml.db_username, xml.db_password);
+            txtDBname.Caption += xml.db_server + " - " + xml.db_name;
+            try
+            {
+                reader.Close();
+            }
+            catch
+            {
+            }
+        }
+
+        void LayThongTinNhanVien()
+        {
+            
+        }
+
+        void FirstRun()
+        {
+            try
+            {
+                LayCauHinh();
+                
+            }
+            catch (Exception ex)
+            {
+                FrmMessage frm = new FrmMessage("Không có file cấu hình. \n Vui lòng chép file config.tps trong thư mục của chương trình GOLDMEM vào ");
+                frm.ShowDialog();
+                Environment.Exit(0);
+            }
+        }
+
+        private void btnMasterControl_LinkClicked(object sender, NavBarLinkEventArgs e)
+        {
+            xtraTabbedMdiManager.MdiParent = this;
+            FrmManageDocument frmManageDoc = new FrmManageDocument(frmLogIn.ID);
+            frmManageDoc.Text = "Quản lý document";
+            frmManageDoc.MdiParent = this;
+            frmManageDoc.Show();
+        }
+
+        FrmLogIn frmLogIn = new FrmLogIn();
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            xtraTabbedMdiManager.MdiParent = this;
+            frmLogIn.Text = "Đăng nhập hệ thống SGC Tool";
+            frmLogIn.MdiParent = this;
+            frmLogIn.Show();
+        }
+
+        private void MainForm_MdiChildActivate(object sender, EventArgs e)
+        {
+            if (frmLogIn.Visible)
+            {
+                barControl.Hide();
+                barControl.Enabled = false;
+            }
+            if (!frmLogIn.Visible)
+            {
+                barControl.Enabled = true;
+                barControl.Show();
+                txtLogIn.Caption = "Xin chào " + frmLogIn.MaNV + " - " + frmLogIn.MaST;
+                //XetQuyenNhanVien(frmLogIn.ID, frmLogIn.TenNV);
+
+            }
+        }
+
+        private void btnUseDocument_LinkClicked(object sender, NavBarLinkEventArgs e)
+        {
+            xtraTabbedMdiManager.MdiParent = this;
+            FrmSearchBug frmManageDoc = new FrmSearchBug();
+            frmManageDoc.Text = "Tìm kiếm";
+            frmManageDoc.MdiParent = this;
+            frmManageDoc.Show();
+        }
+
+
+
+
+
+        
+
+       
+      
+
+       
+
+    }
+}

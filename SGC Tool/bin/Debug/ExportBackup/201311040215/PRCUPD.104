@@ -1,0 +1,140 @@
+<ROOT>
+<TABLE filename="INVMST" extension="">
+<ROWS>
+<ROW SKU="003003123">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003027156">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003008113">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003030741">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003000780">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003000889">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003000979">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003001121">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003050295">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003050518">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003005956">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003010881">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003002808">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003060000">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003055205">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003059284">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003060002">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003060072">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003060076">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003060291">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003060379">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003060659">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003060787">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003061061">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003061650">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003062038">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+<ROW SKU="003062060">
+<COLS>
+<COL Disc_Flag=Y />
+</COLS>
+</ROW>
+</ROWS></TABLE>
+</ROOT>
